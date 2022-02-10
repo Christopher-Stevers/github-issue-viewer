@@ -1,3 +1,7 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -13,4 +17,21 @@ a {
 
 * {
   box-sizing: border-box;
+}
+pre{
+  font-family: Monospace;
+  font-size: .75rem;
+  color: pink;
+  background-color:rgb(55, 45, 45);
+  border-radius: 3rem;
+  padding: 3rem;
+  overflow: hidden;
+}
+code{
+white-space: pre-wrap;
+  word-break: break-all;
+  width: 100%;
+}
+p{
+  margin-bottom: 1rem;
 }
